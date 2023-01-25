@@ -1,3 +1,5 @@
+import { toBlob } from 'dom-to-image'
+
 export const compareColors = (color1, color2) => {
     // Since color is stored as an array, the arrays are converted to strings for comparison
     return color1.toString() === color2.toString()
@@ -65,4 +67,26 @@ export const fillColor = (color, colorMatrix, row, column) => {
     }
 
     return newMatrix
+}
+
+export const generateDownloadImage = (canvasElement, fileName, fileFormat) => {
+    toBlob(canvasElement)
+        .then(function (imageBlob) {
+            // In order to specify the image type of the image blob, the following line needs to be added
+            // from https://stackoverflow.com/questions/18998543/set-content-type-on-blob
+            imageBlob = imageBlob.slice(0, imageBlob.size, `image/${fileFormat}`)
+
+            const dataUrl = URL.createObjectURL(imageBlob)
+
+            // An if-statement is needed to prevent the download dialog from 
+            // appearing when the user hasn't entered file info
+            if (fileName !== '' && fileFormat !== '') {
+                const link = document.createElement("a")
+                link.download = `${fileName}.${fileFormat}`
+                link.href = dataUrl
+                document.body.appendChild(link)
+                link.click()
+                document.body.removeChild(link)
+            }
+        })
 }
