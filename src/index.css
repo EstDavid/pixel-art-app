@@ -1,51 +1,16 @@
-.pxlWhite {
-  background-color: rgb(255,255,255) /* White */
+.pixel {
+  color: rgb(255, 192, 0) /* Orange */
 }
 
-.pxlBlack {
-  background-color: rgb(0, 0, 0) /* Black */
+.artifier {
+  color: rgb(0, 176, 240) /* Sky Blue */
 }
 
-.pxlWineRed {
-  background-color: rgb(192, 0, 0) /* Wine Red */
+.canvas-container {
+  aspect-ratio: 1;
 }
 
-.pxlRed {
-  background-color: rgb(255, 0, 0) /* Red */
-}
-
-.pxlOrange {
-  background-color: rgb(255, 192, 0) /* Orange */
-}
-
-.pxlYellow {
-  background-color: rgb(255, 255, 0) /* Yellow */
-}
-
-.pxlLightGreen {
-  background-color: rgb(146, 208, 80) /* Light Green */
-}
-
-.pxlDarkGreen {
-  background-color: rgb(0, 176, 80) /* Dark Green */
-}
-
-.pxlSkyBlue {
-  background-color: rgb(0, 176, 240) /* Sky Blue */
-}
-
-.pxlOceanBlue {
-  background-color: rgb(0, 112, 192) /* Ocean Blue */
-}
-
-.pxlNavyBlue {
-  background-color: rgb(0, 32, 96) /* Navy Blue */
-}
-
-.pxlViolet {
-  background-color: rgb(112, 48, 160) /* Violet */
-}
-
-.colorSelector {
-  box-shadow: 2px 2px 10px 12px grey
+.color-selector {
+  min-width: 60px; 
+  aspect-ratio: 1;
 }
