@@ -37,11 +37,24 @@ export const canvasSizes = [
     [32, 32]
 ]
 
-export const imageFormats = [
-    'png',
-    'jpg',
-    'gif'
-]
+export const imageFormatOptions = {
+    rowName: 'image-format',
+    title: 'File format',
+    options: [
+        { name: 'png', value: 'png' },
+        { name: 'jpg', value: 'jpg' },
+        { name: 'gif', value: 'gif' }
+    ]
+}
+
+export const showGridOptions = {
+    rowName: 'show-grid',
+    title: 'Show grid',
+    options: [
+        { name: 'Yes', value: true },
+        { name: 'No', value: false }
+    ]
+}
 
 export const canvasSizeChangeDialogText = {
     index: 1,
@@ -55,4 +68,11 @@ export const imageResetDialogText = {
     title: 'Image reset',
     message: 'Current image will be erased. Are you sure?',
     action: 'Reset Image'
+}
+
+export const imageSavedDialogText = {
+    index: 3,
+    title: 'Image saved',
+    message: 'Current image was saved',
+    action: ''
 }
