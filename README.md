@@ -331,16 +331,3 @@ Error while reading CSS rules from https://cdn.jsdelivr.net/npm/bootstrap-icons@
 Apparently, is caused by some undesired interaction between the `dom-to-image` library and the inclusion of Bootstrap's `bootstrap-icons.css` file.
 
 This bug doesn't seem to affect the functionality of the app.
-
-<style>
-.codeblock-label {
-	display: inline-block;
-
-	font-size: .75rem;
-	--bg-opacity: 1;
-	background-color: #e1e7ef;
-    background-color: rgba(224.70600000000002,231.07080000000002,239.394,var(--bg-opacity));
-	padding: .25rem .75rem;
-	margin-bottom: 0;
-}
-</style>
