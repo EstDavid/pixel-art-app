@@ -28,7 +28,7 @@ function App() {
   const [fileFormat, setFileFormat] = useState('')
 
   // For future functionalities, the user could also set the initial background color
-  const [backgroundColor, setBackgroundColor] = useState(colorPalette[0])
+  const backgroundColor = colorPalette[0]
 
   // Generating the initial color matrix
   // A square matrix is assumed (same number of rows and columns)
@@ -57,6 +57,7 @@ function App() {
   // If the canvas size is changed, the color matrix is reset (image is erased)
   useEffect(() => {
     resetColorMatrix()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedCanvasSize])
 
   // This useEffect hook saves the image when 'savingImage' is set to true 
@@ -68,6 +69,7 @@ function App() {
       const element = document.getElementById('canvas')
 
       // Save image
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       generateDownloadImage(element, fileName, fileFormat)
 
       // Show grid again for edition
