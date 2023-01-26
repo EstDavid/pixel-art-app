@@ -11,9 +11,9 @@ const ToolsPalette = ({
                                 selectedTool
                             }) => {
     return (
-        <div className="col-12 col-lg-6 d-flex flex-wrap p-1">
+        <div className="col-12 col-lg-6 order-2 order-lg-1 d-flex flex-wrap p-1">
             <div className="col-12
-                            col-lg-6
+                            col-lg-8
                             p-1
                             d-flex
                             flex-wrap

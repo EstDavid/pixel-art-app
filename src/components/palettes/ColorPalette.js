@@ -4,7 +4,7 @@ import ColorSelector from '../buttons/ColorSelector'
 // This component shows all the available colors in the form of squares (ColorSelector)
 const ColorPalette = ({ handleColorChange }) => {
     return (
-        <div className="col-12 col-lg-4 p-1">
+        <div className="col-12 order-1 order-lg-2 col-lg-4 p-1">
             <div className="d-flex flex-wrap justify-content-center p-0 m-0" >
                 {colorPalette.map((color, index) => {
                     return (
