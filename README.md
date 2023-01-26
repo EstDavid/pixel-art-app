@@ -2,7 +2,7 @@
 
 The 'Pixel Artifier' app is a Single Page Application app which allows the user to paint on a 'pixel-like' square canvas, which can have the sizes of (8 x 8), (12 x 12), (16 x 16), or (32 x 32) pixels.
 
-<img src="/pixel-art-app/images/app-main-layout.png" height="auto" width=600 alt="App Layout"/>
+<img src="./images/app-main-layout.PNG" height="auto" width=600 alt="App Layout"/>
 
 The app is fully responsive and adapts to both smartphone screens and large devices.
 
@@ -78,7 +78,7 @@ The main files in this folder are:
 
 This is the drawing area, where the user can click in order to change the colors of the pixel blocks. It is formed by rows of `Pixel` components.
 
-<center><img src="./images/canvas-empty.png" height="auto" width=300 alt="Empty Canvas component"/></center>
+<center><img src="./images/canvas-empty.PNG" height="auto" width=300 alt="Empty Canvas component"/></center>
 
 The color of each pixel is controlled by a color matrix. The initial color matrix is created with two nested for-loops and then the `colorMatrix` variable is initialized with a state hook.
 
@@ -128,12 +128,12 @@ The `ToolsPalette` component contains the following tools:
 - Paint / Fill tool &rarr; It toggles between the `Paint` and the `Fill` functionalities. `Paint` allows to change the color of one pixel at at time, while `Fill` changes the color of the pixel that was clicked and all of those adjacent pixels with the same color.
 - Selected color block &rarr; This square block shows the user which color is currently selected.
 
-<center><img src="./images/tools-palette.png" height="auto" width=300 alt="Tools Palette"/></center>
+<center><img src="./images/tools-palette.PNG" height="auto" width=300 alt="Tools Palette"/></center>
 
 ### `ColorPalette` component
 All the colors that can be used in the app are contained as square blocks in this component. The user clicks on a color in order to make it the selected color.
 
-<center><img src="./images/colors-palette.png" height="auto" width=300 alt="Colors Palette"/></center>
+<center><img src="./images/colors-palette.PNG" height="auto" width=300 alt="Colors Palette"/></center>
 
 The number and type of colors of this component is controlled by the `colorPalettePure` variable in the `parameters.js` file. Adding more colors or changing the general tones is as simple as updating this array.
 
@@ -160,11 +160,11 @@ The number and type of colors of this component is controlled by the `colorPalet
 
 This component is used for allowing the user to save the current image or erase it.
 
-<center><img src="./images/actions-palette.png" height="auto" width=300 alt="Actions Palette"/></center>
+<center><img src="./images/actions-palette.PNG" height="auto" width=300 alt="Actions Palette"/></center>
 
 Clicking on the `Save Image` button opens a form which allows the user to choose the file format (png, jpg, gif), show/hide the canvas grid, enter the file name and save the current image.
 
-<center><img src="./images/save-file-dialog.png" height="auto" width=300 alt="Save File dialog"/></center>
+<center><img src="./images/save-file-dialog.PNG" height="auto" width=300 alt="Save File dialog"/></center>
 
 The `Reset Image` button opens a dialog to confirm the action. If the user confirms, the image is erased.
 
@@ -172,9 +172,9 @@ The `Reset Image` button opens a dialog to confirm the action. If the user confi
 
 This function is located in the `helpers.js` file and allows the user to paint at once a group of adjacent pixels which have the same color by just clicking on just one of them.
 
-<center><img src="./images/image-before-filling.png" height="auto" width=300 alt="Canvas before filling"/></center>
+<center><img src="./images/image-before-filling.PNG" height="auto" width=300 alt="Canvas before filling"/></center>
 
-<center><img src="./images/image-after-filling.png" height="auto" width=300 alt="Canvas after filling"/></center>
+<center><img src="./images/image-after-filling.PNG" height="auto" width=300 alt="Canvas after filling"/></center>
 
 By adjacent, it is assumed that the pixels share one side. Pixels touching each other on a vertex are not considered adjacent.
 
