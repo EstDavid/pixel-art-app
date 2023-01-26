@@ -2,7 +2,7 @@
 
 The 'Pixel Artifier' app is a Single Page Application app which allows the user to paint on a 'pixel-like' square canvas, which can have the sizes of (8 x 8), (12 x 12), (16 x 16), or (32 x 32) pixels.
 
-<img src="./images/app-main-layout.png" height="auto" width=600 alt="App Layout"/>
+<img src="/pixel-art-app/images/app-main-layout.png" height="auto" width=600 alt="App Layout"/>
 
 The app is fully responsive and adapts to both smartphone screens and large devices.
 
