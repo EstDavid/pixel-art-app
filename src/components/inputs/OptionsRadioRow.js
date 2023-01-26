@@ -1,22 +1,9 @@
-const OptionsRadio = ({index, rowName, option, selectedValue, onChange}) => {
-    const {name, value} = option
-    return (
-        <>
-            <input 
-                className="btn-check"
-                type="radio"
-                name={`${rowName}`}
-                id={`${rowName}-${index}`}
-                autoComplete="off"
-                checked={value === selectedValue ? true : false}
-                onChange={() => onChange(value)} />
-            <label className="btn btn-outline-secondary" htmlFor={`${rowName}-${index}`}>
-                {name.toUpperCase()}
-            </label>
-        </>
-    )}
+import OptionsRadio from "./OptionsRadio"
 
+// This is a generic component that generates a row of different values to choose from,
+// such as image format or show/no show grid lines
 const OptionsRadioRow = ({optionsObj, selectedValue, onChange}) => {
+    // The optionsObj is an object created in the parameters.js file and passed by the parent SaveFieForm component
     const {rowName, title, options} = optionsObj
 
     return (

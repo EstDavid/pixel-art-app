@@ -1,3 +1,4 @@
+// This component is a square displaying the currently selected color on the ToolsPalette component
 const SelectedColor = ({ selectedColor }) => {
     return (
         <div className='col-12 m-2 d-flex align-items-center justify-content-center'>

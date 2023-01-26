@@ -1,5 +1,6 @@
 import Pixel from "./Pixel"
 
+// Component used to generate each row of pixels in the canvas
 const PixelsRow = ({ 
     columns,
     onClick,

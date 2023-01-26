@@ -1,3 +1,4 @@
+// This component contains the input field for the file name
 const FileNameInput = ({
     value,
     onChange,

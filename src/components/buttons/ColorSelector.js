@@ -1,3 +1,6 @@
+// This is the building element of the ColorPalette component
+// The onClick function is handled by the App component to change the 
+// current selected color
 const ColorSelector = ({ color, onClick }) => {
     return (
         <div
