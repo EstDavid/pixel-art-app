@@ -1,9 +1,26 @@
+@font-face {
+  font-family: PixelatedFont;
+  src: url(./assets/pixeloid-font/PixeloidSans-JR6qo.ttf);
+}
+
+div {
+  font-family: PixelatedFont;
+}
+
+.pixel-artifier-brand {
+  font-size: 60px
+}
+
+@media only screen and (max-width: 720px) {
+  .pixel-artifier-brand {font-size: 30px}
+}
+
 .pixel {
-  color: rgb(255, 192, 0) /* Orange */
+  color: rgb(255, 192, 0); /* Orange */
 }
 
 .artifier {
-  color: rgb(0, 176, 240) /* Sky Blue */
+  color: rgb(0, 176, 240); /* Sky Blue */
 }
 
 .canvas-container {
