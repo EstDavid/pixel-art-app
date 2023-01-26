@@ -34,7 +34,7 @@ const Canvas = ({
             // imposed by the bootstrap grid layout
             // This property is applied in the .canvas-container class
             }
-            <div className="row m-0 p-0 border border-dark canvas-container">
+            <div className="row m-0 p-0 order-0 border border-dark canvas-container">
                 {rowsArray.map((row, index) => {
                     return (
                         <PixelsRow
