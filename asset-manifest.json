@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pixel-art-app/static/css/main.705407a3.css",
+    "main.js": "/pixel-art-app/static/js/main.d63d8079.js",
+    "static/media/PixeloidSans-JR6qo.ttf": "/pixel-art-app/static/media/PixeloidSans-JR6qo.510e9aa7ff31a99d543b.ttf",
+    "static/media/logo.png": "/pixel-art-app/static/media/logo.9a8ffd73566c669f0fd6.png",
+    "index.html": "/pixel-art-app/index.html",
+    "main.705407a3.css.map": "/pixel-art-app/static/css/main.705407a3.css.map",
+    "main.d63d8079.js.map": "/pixel-art-app/static/js/main.d63d8079.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.705407a3.css",
+    "static/js/main.d63d8079.js"
+  ]
+}
