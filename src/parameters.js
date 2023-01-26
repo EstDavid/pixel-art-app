@@ -31,8 +31,8 @@ const transparency = 1
 export const colorPalette = colorPalettePure.map(color => color.concat(transparency))
 
 export const canvasSizes = [
-    [4, 4],
     [8, 8],
+    [12, 12],
     [16, 16],
     [32, 32]
 ]
