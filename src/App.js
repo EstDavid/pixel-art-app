@@ -14,7 +14,7 @@ function App() {
 
   // Initializing canvas size, selected color and tool state variables
   const [selectedCanvasSize, setCanvasSize] = useState(canvasSizes[0])
-  const [selectedColor, setColor] = useState(colorPalette[0])
+  const [selectedColor, setColor] = useState(colorPalette[1]) // Black is selected as default color
   const [selectedTool, setTool] = useState(tools[0])
 
 
