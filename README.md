@@ -4,7 +4,7 @@ The 'Pixel Artifier' app is a Single Page Application app which allows the user 
 
 You can check out the app at https://estdavid.github.io/pixel-art-app/
 
-<img src="./images/app-main-layout.PNG" height="auto" width=600 alt="App Layout"/>
+<a href="https://estdavid.github.io/pixel-art-app/" target="_blank" rel="noreferrer noopener"><img src="./images/app-main-layout.PNG" height="auto" width=600 alt="App Layout"/></a>
 
 The app is fully responsive and adapts to both smartphone screens and large devices.
 
