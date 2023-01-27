@@ -1,6 +1,8 @@
-# Pixel Artifier App <img src="./images/logo.png" height=40 width="auto" alt="Pixel Artifier Logo"/>
+# [Pixel Artifier App](https://estdavid.github.io/pixel-art-app/ "Pixel Artifier App") <a href="https://estdavid.github.io/pixel-art-app/" target="_blank" rel="noreferrer noopener"><img src="./images/logo.png" height=40 width="auto" alt="Pixel Artifier Logo"/></a>
 
 The 'Pixel Artifier' app is a Single Page Application app which allows the user to paint on a 'pixel-like' square canvas, which can have the sizes of (8 x 8), (12 x 12), (16 x 16), or (32 x 32) pixels.
+
+You can check out the app at https://estdavid.github.io/pixel-art-app/
 
 <img src="./images/app-main-layout.PNG" height="auto" width=600 alt="App Layout"/>
 
