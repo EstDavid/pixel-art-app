@@ -76,6 +76,15 @@ const ActionsPalette = ({ resetColorMatrix, saveImage }) => {
                 classOptions='btn-outline-secondary w-75'
                 />
             </div>
+            <div className="row justify-content-center">
+            {/* Reset image button which eliminates the content of the current image*/}
+            <SaveFileButton 
+                name='View on Github'
+                linkUrl='https://github.com/EstDavid/pixel-art-app'
+                icon={<i className="bi bi-github pe-2"></i>}
+                classOptions='btn-outline-dark w-75 mt-4'
+                />
+            </div>
             {/* Dialog to confirm resetting of the image*/}
             <ModalDialog 
                 onAccept={resetColorMatrix}
