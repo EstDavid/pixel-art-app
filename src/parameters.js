@@ -25,10 +25,45 @@ const colorPalettePure = [
     [112, 48, 160] // Violet
 ]
 
+const colorPaletteExpanded = [
+    [255, 255, 255], // White
+    [0, 0, 0], // Black
+    [0, 102, 153],
+    [0, 153, 204],
+    [0, 102, 204],
+    [0, 51, 204],
+    [0, 0, 255],
+    [51, 51, 255],
+    [51, 51, 204],
+    [102, 0, 255],
+    [153, 51, 255],
+    [204, 0, 255],
+    [204, 0, 204],
+    [204, 0, 153],
+    [204, 51, 153],
+    [214, 0, 147],
+    [204, 0, 102],
+    [204, 0, 0],
+    [255, 0, 0],
+    [255, 51, 0],
+    [204, 102, 0],
+    [255, 153, 0],
+    [204, 153, 0],
+    [204, 204, 0],
+    [153, 204, 0],
+    [102, 153, 0],
+    [0, 153, 0],
+    [0, 128, 0],
+    [0, 204, 0],
+    [0, 204, 102],
+    [0, 204, 153],
+    [0, 153, 153]
+]
+
 const transparency = 1
 
 // The colorPalette variable is exported with the parameter of transparency
-export const colorPalette = colorPalettePure.map(color => color.concat(transparency))
+export const colorPalette = colorPaletteExpanded.map(color => color.concat(transparency))
 
 export const canvasSizes = [
     [8, 8],
