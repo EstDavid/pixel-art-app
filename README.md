@@ -116,7 +116,7 @@ The `onClick` function is handled by the `App` component.
         id={`${rowNumber}-${columnNumber}`}
         className={`col w-auto p-0 m-0 ${showGrid ? 'border border-dark' : null}`}
         style={{
-            backgroundColor: {`rgba(${color[rowNumber][columnNumber]})`},
+            backgroundColor: "RGBA",
             borderStyle: 'none'
         }}
         onClick={onClick} >
